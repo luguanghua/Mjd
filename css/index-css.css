@@ -9,6 +9,7 @@ body {
     /*height: 3000px;*/
     margin: 0 auto;
     padding-bottom: 70px;
+    overflow: hidden;
 }
 /*头部*/
 .jd-header {
@@ -335,7 +336,7 @@ body {
     color: #e9232c;
     float: left;
 }
-.jd-intro .jd-intro-list  div span:nth-child(2) {
+.jd-intro .jd-intro-list  div span:nth-child(2){
     float: right;
     border: 1px solid #e0e0e0;
     width: 60px;
@@ -344,4 +345,7 @@ body {
     text-align: center;
     line-height: 28px;
     color: #666;
+}
+.current{
+    background-color: #fff;
 }
